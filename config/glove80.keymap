@@ -449,10 +449,10 @@ behaviors {
         compatible = "zmk,behavior-mod-morph";
         label = "DOWN_AND_PGDN";
         #binding-cells = <0>;
-        bindings = <&kp DOWN>, <&kp PG_DOWN>;
+        bindings = <&kp DOWN>, <&kp PAGE_DOWN>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
-  };
+};
 };
 
 /* Automatically generated macro definitions */
